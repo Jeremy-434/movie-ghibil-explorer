@@ -1,8 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #14181F;
   --foreground: #171717;
+  --input-background: #1D222A;
+  --primary-orange: #f44734;
+  --red-accent: #F04438;
+  --orange-accent: #F97316;
 }
 
 @theme inline {
@@ -23,4 +27,12 @@ body {
   background: var(--background);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-primary-orange {
+  color: var(--primary-orange);
+}
+
+.bg-input-background {
+  background: var(--input-background);
 }
